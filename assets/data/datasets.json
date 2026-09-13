@@ -1,0 +1,1465 @@
+{
+  "provenance": {
+    "generator": "Claimwatch Desk synthetic constructor (deterministic seed profiles)",
+    "fictional": true,
+    "disclaimer": "Every organisation, person, and headline here is fictional. Datasets were constructed for education; they are not real measurements and must not be cited as scientific findings.",
+    "constructed": "Series and populations were hand-specified or generated with a fixed seed so classroom results are stable. Units and labels are documented in the data dictionary."
+  },
+  "dictionary": [
+    {
+      "dataset": "riverloop-checkouts-2025",
+      "field": "month",
+      "type": "string",
+      "unit": "calendar month label",
+      "notes": "Synthetic month labels for fictional Riverloop Shared Cycles."
+    },
+    {
+      "dataset": "riverloop-checkouts-2025",
+      "field": "value",
+      "type": "integer",
+      "unit": "checkouts",
+      "notes": "Monthly checkout counts; constructed, not observed."
+    },
+    {
+      "dataset": "northbridge-campus-roster",
+      "field": "id",
+      "type": "string",
+      "unit": "—",
+      "notes": "Synthetic learner id."
+    },
+    {
+      "dataset": "northbridge-campus-roster",
+      "field": "cafeRegular",
+      "type": "boolean",
+      "unit": "—",
+      "notes": "True if constructed as a frequent cafe visitor (drives volunteer-sample bias)."
+    },
+    {
+      "dataset": "northbridge-campus-roster",
+      "field": "preferredSpace",
+      "type": "categorical",
+      "unit": "—",
+      "notes": "Quiet library | Group studio | Courtyard | Cafe nooks"
+    },
+    {
+      "dataset": "makerspace-sprint",
+      "field": "hours",
+      "type": "number",
+      "unit": "hours / week",
+      "notes": "Self-reported makerspace time in fictional sprint."
+    },
+    {
+      "dataset": "makerspace-sprint",
+      "field": "score",
+      "type": "number",
+      "unit": "points 0–100",
+      "notes": "Synthetic project review score."
+    },
+    {
+      "dataset": "makerspace-sprint",
+      "field": "clubMember",
+      "type": "boolean",
+      "unit": "—",
+      "notes": "Third-variable flag: prior club experience."
+    }
+  ],
+  "bikeSeries": {
+    "id": "riverloop-checkouts-2025",
+    "entity": "Riverloop Shared Cycles (fictional)",
+    "measure": "Monthly bicycle checkouts",
+    "unit": "checkouts",
+    "yearLabel": "Synthetic year 2025",
+    "points": [
+      {
+        "month": "Jan",
+        "value": 4120
+      },
+      {
+        "month": "Feb",
+        "value": 3980
+      },
+      {
+        "month": "Mar",
+        "value": 4310
+      },
+      {
+        "month": "Apr",
+        "value": 4550
+      },
+      {
+        "month": "May",
+        "value": 4820
+      },
+      {
+        "month": "Jun",
+        "value": 5010
+      },
+      {
+        "month": "Jul",
+        "value": 5180
+      },
+      {
+        "month": "Aug",
+        "value": 5095
+      },
+      {
+        "month": "Sep",
+        "value": 4760
+      },
+      {
+        "month": "Oct",
+        "value": 4480
+      },
+      {
+        "month": "Nov",
+        "value": 4225
+      },
+      {
+        "month": "Dec",
+        "value": 4050
+      }
+    ],
+    "views": {
+      "full": {
+        "id": "full",
+        "label": "Context view (near-zero baseline)",
+        "minY": 0,
+        "maxY": 6000
+      },
+      "zoom": {
+        "id": "zoom",
+        "label": "Zoomed view (tight window)",
+        "minY": 3900,
+        "maxY": 5300
+      }
+    },
+    "claims": {
+      "dramatic": "CLAIM (fictional Meridian Daily Pulse): “Riverloop checkouts exploded — the chart shows a dramatic surge!”",
+      "calm": "COUNTER-NOTE: Same monthly totals; only the vertical window changed. Ask what the axis emphasises."
+    }
+  },
+  "campusPopulation": [
+    {
+      "id": "N001",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N002",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N003",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N004",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N005",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N006",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N007",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N008",
+      "cafeRegular": true,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N009",
+      "cafeRegular": true,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N010",
+      "cafeRegular": true,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N011",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N012",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N013",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N014",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N015",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N016",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N017",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N018",
+      "cafeRegular": true,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N019",
+      "cafeRegular": true,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N020",
+      "cafeRegular": true,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N021",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N022",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N023",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N024",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N025",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N026",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N027",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N028",
+      "cafeRegular": true,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N029",
+      "cafeRegular": true,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N030",
+      "cafeRegular": true,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N031",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N032",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N033",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N034",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N035",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N036",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N037",
+      "cafeRegular": true,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N038",
+      "cafeRegular": true,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N039",
+      "cafeRegular": true,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N040",
+      "cafeRegular": true,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N041",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N042",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N043",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N044",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N045",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N046",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N047",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N048",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N049",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N050",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N051",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N052",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N053",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N054",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N055",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N056",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N057",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N058",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N059",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N060",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N061",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N062",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N063",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N064",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N065",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N066",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N067",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N068",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N069",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N070",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N071",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N072",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N073",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N074",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N075",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N076",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N077",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N078",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N079",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N080",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N081",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N082",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N083",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N084",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N085",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N086",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N087",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N088",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N089",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N090",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N091",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N092",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N093",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N094",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N095",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N096",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N097",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N098",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N099",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N100",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N101",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N102",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N103",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N104",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N105",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N106",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N107",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N108",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N109",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N110",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N111",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N112",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N113",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N114",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N115",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N116",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N117",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N118",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N119",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N120",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N121",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N122",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N123",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N124",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N125",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N126",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N127",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N128",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N129",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N130",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N131",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N132",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N133",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N134",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N135",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N136",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N137",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N138",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N139",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N140",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N141",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N142",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N143",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N144",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N145",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N146",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N147",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N148",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N149",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N150",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N151",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N152",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N153",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N154",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N155",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N156",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N157",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N158",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N159",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N160",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N161",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N162",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N163",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N164",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N165",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N166",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N167",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N168",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N169",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N170",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N171",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N172",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N173",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N174",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N175",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N176",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N177",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N178",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N179",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N180",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N181",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N182",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N183",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N184",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N185",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N186",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N187",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N188",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N189",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N190",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N191",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N192",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N193",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N194",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N195",
+      "cafeRegular": false,
+      "preferredSpace": "Quiet library",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N196",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N197",
+      "cafeRegular": false,
+      "preferredSpace": "Group studio",
+      "yearBand": "Y10-11"
+    },
+    {
+      "id": "N198",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N199",
+      "cafeRegular": false,
+      "preferredSpace": "Courtyard",
+      "yearBand": "Y12-13"
+    },
+    {
+      "id": "N200",
+      "cafeRegular": false,
+      "preferredSpace": "Cafe nooks",
+      "yearBand": "Y10-11"
+    }
+  ],
+  "makerRows": [
+    {
+      "id": "M01",
+      "hours": 8,
+      "score": 88,
+      "clubMember": true
+    },
+    {
+      "id": "M02",
+      "hours": 9,
+      "score": 85,
+      "clubMember": true
+    },
+    {
+      "id": "M03",
+      "hours": 10,
+      "score": 87,
+      "clubMember": true
+    },
+    {
+      "id": "M04",
+      "hours": 11,
+      "score": 84,
+      "clubMember": true
+    },
+    {
+      "id": "M05",
+      "hours": 12,
+      "score": 89,
+      "clubMember": true
+    },
+    {
+      "id": "M06",
+      "hours": 13,
+      "score": 86,
+      "clubMember": true
+    },
+    {
+      "id": "M07",
+      "hours": 14,
+      "score": 85,
+      "clubMember": true
+    },
+    {
+      "id": "M08",
+      "hours": 15,
+      "score": 88,
+      "clubMember": true
+    },
+    {
+      "id": "M09",
+      "hours": 16,
+      "score": 84,
+      "clubMember": true
+    },
+    {
+      "id": "M10",
+      "hours": 17,
+      "score": 87,
+      "clubMember": true
+    },
+    {
+      "id": "M11",
+      "hours": 1,
+      "score": 60,
+      "clubMember": false
+    },
+    {
+      "id": "M12",
+      "hours": 2,
+      "score": 55,
+      "clubMember": false
+    },
+    {
+      "id": "M13",
+      "hours": 3,
+      "score": 59,
+      "clubMember": false
+    },
+    {
+      "id": "M14",
+      "hours": 4,
+      "score": 56,
+      "clubMember": false
+    },
+    {
+      "id": "M15",
+      "hours": 5,
+      "score": 61,
+      "clubMember": false
+    },
+    {
+      "id": "M16",
+      "hours": 6,
+      "score": 57,
+      "clubMember": false
+    },
+    {
+      "id": "M17",
+      "hours": 7,
+      "score": 58,
+      "clubMember": false
+    },
+    {
+      "id": "M18",
+      "hours": 8,
+      "score": 54,
+      "clubMember": false
+    },
+    {
+      "id": "M19",
+      "hours": 9,
+      "score": 60,
+      "clubMember": false
+    },
+    {
+      "id": "M20",
+      "hours": 10,
+      "score": 56,
+      "clubMember": false
+    }
+  ]
+}
