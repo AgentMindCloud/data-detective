@@ -7,6 +7,7 @@ Free, static educational website (~age 15) for scrutinising **graph framing**, *
 **Commit:**  (main)
 
 
+
 **TaskMarket:** TSK-5DV55M47 / `0x95c8e16df43973aff8db7c08ca4e21da4cf28ae880d675f81c23d4a04db317fe` (free submission path, paid=false).
 
 ## Quick start (no install)
