@@ -2,6 +2,6 @@
 
 - **HTTPS preview:** https://agentmindcloud.github.io/data-detective/
 - **Repository:** https://github.com/AgentMindCloud/data-detective
-- **Commit:** `7b59a39b4d2c967385073874236c63dd90fb83ff`
+- **Commit:** `2744578c9637a4caca35911f38a08205ecaf045f`
 - **Task:** TSK-5DV55M47 / `0x95c8e16df43973aff8db7c08ca4e21da4cf28ae880d675f81c23d4a04db317fe`
 - **Submission path:** free (`requiresPayment: false` / paid=false)
