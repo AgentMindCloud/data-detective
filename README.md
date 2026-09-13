@@ -4,6 +4,8 @@ Free, static educational website (~age 15) for scrutinising **graph framing**, *
 
 **Live preview:** https://agentmindcloud.github.io/data-detective/
 
+**Commit:** `546fdfc58c6e17d81d355575c2ea9768308aa5de` (main)
+
 **TaskMarket:** TSK-5DV55M47 / `0x95c8e16df43973aff8db7c08ca4e21da4cf28ae880d675f81c23d4a04db317fe` (free submission path, paid=false).
 
 ## Quick start (no install)
